@@ -1,5 +1,4 @@
 // Calculate PI by generating random points in a square and counting how many fall in a circle
-
 use rand::Rng;
 use signal_hook::consts::signal;
 use std::{
