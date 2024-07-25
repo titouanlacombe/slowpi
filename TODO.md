@@ -1,1 +1,1 @@
-switch to criterion for multi-threaded
+switch to rayon for multi-threaded

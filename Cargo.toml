@@ -4,11 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-rand = "0.8.5"
-threadpool = "1.8.1"
-signal-hook = "0.3.14"
-num_cpus = "1.14.0"
-
-[[bin]]
-name = "slowpi"
-path = "slowpi.rs"
+rand = "*"
+rand_pcg = "*"
+ratatui = { version = "*", features = ["all-widgets"] }
+rayon = "*"
